@@ -1,5 +1,10 @@
-body {
+:root {
     font-family: 'Alice', serif;
+    color: #573a37;
+    line-height: 150%;
+}
+
+body {
     background-image: url('/img/bg-image.png');
     background-size: cover;
 }
@@ -10,6 +15,9 @@ body {
     padding: 24px;
     box-sizing: border-box;
     border-radius: 24px;
+    box-shadow:  0 -3em 3em #858277,
+    0 0 0 2px white,
+    0.3em 0.3em 1em #291B1A;
     margin: 48px auto;
 }
 
@@ -27,22 +35,10 @@ h1 {
 
 h2 {
     font-size: 24px;
-    line-height: 150%;
-}
-
-p {
-    font-size: 16px;
-    line-height: 150%;
-    color: #573a37;
-    margin-bottom: 20px;
 }
 
 img {
     border-radius: 16px;
-}
-
-section#ingredients ul {
-    color: #573a37;
 }
 
 #credits {
