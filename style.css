@@ -1,6 +1,8 @@
 body {
     font-family: 'Alice', serif;
     box-sizing: border-box;
+    background-image: url('/img/bg-image.png');
+    background-size: cover;
 }
 
 h1 {
